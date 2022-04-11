@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Migra';
+    src: url('../fonts/Migra-Extrabold.woff2') format('woff2'),
+    url('../fonts/Migra-Extralight.woff2') format('woff2'),
+    url('../fonts/Migra-Regular.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'NeueMontreal';
+    src: url('../fonts/NeueMontreal-Regular.woff2') format('woff2'),
+    url('../fonts/NeueMontreal-Light.woff2') format('woff2'),
+    url('../fonts/NeueMontreal-Bold.woff2') format('woff2');
+    font-weight: 100 200 300 400 500 600 700 800 900;
+    font-display: swap;
+    font-style: normal;
+ }
+body {
+    margin: 0;
+    background-image: url(../images/backgroundNoisePattern.jpeg);
+    background-repeat: repeat;
+    background-color: black;
+    box-sizing: content-box;
+}
+ .headerNav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px;
+     box-sizing: content-box;
+ }
+ header {
+    text-align: center;
+    box-sizing: border-box;
+ }
+ /*
+#logoContainer {
+    background-image: url(../images/lancelogo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 50px;
+    width: 200px;
+    padding: 2% 2%;
+}
+*/
+#logoContainer {
+    height: 50px;
+    width: 100px;
+    /*border: 1px solid saddlebrown;*/
+    padding: 20px ;
+}
+#headerLinks {
+    display: inline;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+ .linkItem {
+     width: auto;
+     height: 20px;
+     display: inline;
+     padding-right: 30px;
+     font-family: 'NeueMontreal';
+     font-weight: 500;
+     text-align: center;
+     justify-content: center;
+     color: white;
+ }
+
+ #typographyHeading {
+     box-sizing: content-box;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     /*border: 1px solid salmon;*/
+     padding-bottom: 0px;
+     padding-top: 40px;
+ }
+ .titleSectionText {
+    font-family: 'Migra';
+    font-weight: 100;
+    font-size: 10em;
+ }
+
+ .breakRow {
+     flex-basis: 100%;
+ }
+ 
+ .titleSection {
+     overflow: hidden;
+     line-height: 1;
+     color:white;
+     /*border: 1px solid aqua;*/
+     justify-content: center;
+     height: 130px;
+ }
+
+ .marquee {
+    width: 120px;
+    height: 121px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: content-box;
+    position: relative;
+    font-family: 'NeueMontreal';
+    font-weight: 900;
+    font-size: 10em;
+ }
+    .marquee::before {
+        position: absolute;
+        top: 0;
+        width: 120px;
+        height: 121px;
+        content: "";
+        z-index: 1;
+        left: 0;
+        background: linear-gradient(to right, rgb(15, 15, 15) 10px, transparent 20%);
+      }
+
+      .marquee::after {
+        position: absolute;
+        top: 0;
+        width: 120px;
+        height: 121px;
+        content: "";
+        z-index: 1;
+        right: 0;
+        background: linear-gradient(to left, rgb(15, 15, 15) 10px, transparent 20%);
+      }
+
+ .marquee__content {
+    width: 300% !important;
+    display: flex;
+    line-height: 100%;
+    animation: marquee 10s linear infinite forwards;
+  }
+  
+ .list-inline {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-66.6%); }
+  }
+
+  li {
+    font-family: 'NeueMontreal';
+    font-weight: 900;
+    color: white;
+  }
+  .typeHead6 {
+      padding-bottom: 70px
+  }
+  .rotate {
+      animation: rotation 10s infinite linear;
+      height: 50px;
+      width: 50px;
+      position: relative;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  #projectSection {
+      font-family: 'Migra';
+      display: block;
+      text-align: center;
+      align-content: center;
+      padding-bottom: 70px;
+      padding-top: 10px;
+      background-color: #0000003e;
+  }
+  .projectPreviews {
+      display: inline-flex;
+      color: white;
+      padding: 20px;
+      width: 450px; 
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  .projectImage {
+      background-size: cover;
+      background-color: white;
+      width: 450px;
+      height: 250px;
+  }
+  .projectDescription {
+    font-family: 'NeueMontreal';
+    text-align: center;
+  }
+  .sectionHeading {
+      font-family: 'Migra';
+      font-size: 5em;
+      color: white;
+  }
+  .viewProjectButton {
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 100px;
+      background-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
+      display: inline-block;
+      font-family: 'NeueMontreal';
+      font-weight: 900;
+  }
+footer {
+    font-family: 'Neu';
+    padding: 30px 20px 20px 20px;
+    color: white;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #000000);
+}
+#footerLinks {
+    display: inline;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#aboutMe {
+    text-align: center;
+    color: white;
+    font-family: 'NeueMontreal';
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#profile {
+    display: flex;
+    justify-content: center;
+
+}
+#profilePic {
+    background-image: url(../images/profilePictureLance.jpg);
+    height: 350px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*position: absolute;
+    left: 25%;*/
+    display: inline-flex;
+
+}
+#profileIntro {
+    height: 320px;
+    width: 450px;
+    text-align: left;
+    font-size: 1.5em;
+    /*position: relative;
+    left: 45%;*/
+    padding: 15px 35px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #0000006a);
+    display: inline-flex;
+    border-right: 4px solid white;
+}
+#contactMe {
+    height: 350px;
+}
