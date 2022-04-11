@@ -82,7 +82,7 @@ body {
  }
  .titleSectionText {
     font-family: 'Migra';
-    font-weight: 100;
+    font-weight: 900;
     font-size: 10em;
     letter-spacing: 1px;
  }
@@ -107,7 +107,7 @@ body {
     overflow: hidden;
     box-sizing: content-box;
     position: relative;
-    font-family: 'NeueMontreal';
+    font-family: 'Migra';
     font-weight: 900;
     font-size: 10em;
  }
@@ -149,8 +149,8 @@ body {
     margin: 0;
   }
   @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-66.6%); }
+    0% { transform: translateX(-10%); }
+    100% { transform: translateX(-100%); }
   }
 
   li {
