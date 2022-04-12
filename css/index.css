@@ -114,8 +114,8 @@ body {
     .marquee::before {
         position: absolute;
         top: 0;
-        width: 120px;
-        height: 121px;
+        width: 100%;
+        height: 100%;
         content: "";
         z-index: 1;
         left: 0;
@@ -125,8 +125,8 @@ body {
       .marquee::after {
         position: absolute;
         top: 0;
-        width: 120px;
-        height: 121px;
+        width: 100%;
+        height: 100%;
         content: "";
         z-index: 1;
         right: 0;
