@@ -34,17 +34,7 @@ body {
     text-align: center;
     box-sizing: border-box;
  }
- /*
-#logoContainer {
-    background-image: url(../images/lancelogo.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-    height: 50px;
-    width: 200px;
-    padding: 2% 2%;
-}
-*/
+
 #logoContainer {
     height: 50px;
     width: 100px;
@@ -101,71 +91,86 @@ body {
  }
 
  .marquee {
-    width: 120px;
-    height: 121px;
+    width: 100%;
+    height: 100%;
     white-space: nowrap;
     overflow: hidden;
     box-sizing: content-box;
     position: relative;
     font-family: 'Migra';
     font-weight: 900;
-    font-size: 10em;
+    font-size: 3em;
+    position: relative;
+    top: -30px;
+ } 
+ .marquee::before {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 60px;
+    content: "";
+    z-index: 1;
+    left: 0;
+    /*background: linear-gradient(to right, black 3%, transparent 100%);*/
+    }
+ .marquee::after {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 60px;
+    content: "";
+    z-index: 1;
+    right: 0;
+    /*background: linear-gradient(to left, black 3%, transparent 100%);*/
  }
-    .marquee::before {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        content: "";
-        z-index: 1;
-        left: 0;
-        background: linear-gradient(to right, rgb(15, 15, 15) 10px, transparent 20%);
-      }
-
-      .marquee::after {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        content: "";
-        z-index: 1;
-        right: 0;
-        background: linear-gradient(to left, rgb(15, 15, 15) 10px, transparent 20%);
-      }
-
- .marquee__content {
+  
+  
+  .marquee__content {
     width: 300% !important;
     display: flex;
-    line-height: 100%;
-    animation: marquee 10s linear infinite forwards;
+    line-height: 60px;
+    animation: marquee 20s linear infinite forwards;
+    overflow: hidden;
+  }
+  .marquee__content2 {
+    width: 300% !important;
+    display: flex;
+    line-height: 60px;
+    animation: marquee 20s linear infinite forwards;
+    overflow: hidden;
   }
   
- .list-inline {
+  .list-inline {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    
+    /* reset list */
     list-style: none;
     padding: 0;
     margin: 0;
   }
   @keyframes marquee {
-    0% { transform: translateX(-10%); }
-    100% { transform: translateX(-100%); }
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-66.6%); }
   }
-
-  li {
-    font-family: 'NeueMontreal';
+  .list-inline li {
+    font-family: 'Migra';
     font-weight: 900;
     color: white;
+    letter-spacing: 3px;
   }
   .typeHead6 {
-      padding-bottom: 70px
+      padding-bottom: 150px
   }
   .rotate {
       animation: rotation 10s infinite linear;
       height: 50px;
       width: 50px;
-      position: relative;
+  }
+  .rotatingIcon{
+      align-items: center;
+      display: flex;
   }
   @keyframes rotation {
     from {
@@ -240,7 +245,6 @@ footer {
     color: white;
     font-family: 'NeueMontreal';
     display: block;
-    padding-top: 10px;
     padding-bottom: 50px;
     letter-spacing: 1px;
 }
@@ -259,19 +263,18 @@ footer {
     /*position: absolute;
     left: 25%;*/
     display: inline-flex;
-
+    padding: 15px 35px 15px 35px;
 }
 #profileIntro {
-    height: 320px;
+    height: 350px;
     width: 450px;
     text-align: left;
-    font-size: 1.5em;
-    /*position: relative;
-    left: 45%;*/
-    padding: 15px 35px;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #0000006a);
+    font-size: 1.3em;
+    padding: 15px 35px 15px 35px;
+    /*background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #0000006a);*/
+    background-color: #000000;
     display: inline-flex;
-    border-right: 4px solid white;
+    /*border-right: 4px solid white;*/
 }
 #contactMe {
     height: 350px;
