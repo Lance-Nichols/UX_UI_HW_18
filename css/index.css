@@ -47,6 +47,13 @@ body {
     display: flex;
     align-items: center;
 }
+.linkItem:hover {
+    font-family: 'Migra';
+    font-weight: 900;
+    cursor: pointer;
+    color: #cb1860;
+    font-size: large;
+}
 
  .linkItem {
      width: auto;
@@ -248,33 +255,53 @@ footer {
     padding-bottom: 50px;
     letter-spacing: 1px;
 }
+
+#profileSection {
+    display: absolute;
+    /*border: 1px solid yellow;*/
+}
+#introduceHeading {
+    position: relative;
+    z-index: 4;
+}
 #profile {
+    /*border: 1px solid salmon;*/
     display: flex;
     justify-content: center;
-
 }
 #profilePic {
     background-image: url(../images/profilePictureLance.jpg);
-    height: 350px;
+    height: 450px;
     width: 450px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*position: absolute;
-    left: 25%;*/
-    display: inline-flex;
-    padding: 15px 35px 15px 35px;
+    z-index: 1;
+    position: relative;
+    right: -55px;
+    top: -50px;
+    box-shadow: 3px 4px 65px 10px rgba(0, 0, 0, 0.727);
+    border-radius: 600px;
+}
+.profileContent {
+    display: flex;
+    align-items: center;
 }
 #profileIntro {
     height: 350px;
     width: 450px;
     text-align: left;
     font-size: 1.3em;
-    padding: 15px 35px 15px 35px;
-    /*background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #0000006a);*/
+    padding: 0 40px;
     background-color: #000000;
-    display: inline-flex;
-    /*border-right: 4px solid white;*/
+    position: relative;
+    left: -55px;
+    top: 150px;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 3px 4px 65px 10px rgba(0, 0, 0, 0.54);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
 }
 #contactMe {
     height: 350px;
