@@ -271,7 +271,7 @@ footer {
 }
 #profilePic {
     background-image: url(../images/profilePictureLance.jpg);
-    height: 450px;
+    height: 350px;
     width: 450px;
     background-repeat: no-repeat;
     background-position: center;
@@ -281,7 +281,7 @@ footer {
     right: -55px;
     top: -50px;
     box-shadow: 3px 4px 65px 10px rgba(0, 0, 0, 0.727);
-    border-radius: 600px;
+    padding: 0 40px;
 }
 .profileContent {
     display: flex;
@@ -301,7 +301,6 @@ footer {
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 3px 4px 65px 10px rgba(0, 0, 0, 0.54);
     backdrop-filter: blur(50px);
-    border-radius: 10px;
 }
 #contactMe {
     height: 350px;
