@@ -198,13 +198,17 @@ body {
       padding-bottom: 100px;
       background-color: #0000003e;
   }
+  .breakLineStar {
+    width: 100%;
+    justify-content: center;
+  }
+
   #projectSectionContainer {
       padding-top: 10px;
       padding-bottom: 50px;
-      border: 1px solid yellow;
   }
   #skillsSectionContainer {
-      padding-top: 50px;
+      padding-top: 20px;
       padding-bottom: 50px;
   }
   #projectSection .sectionHeading {
@@ -212,7 +216,7 @@ body {
       flex-basis: 100%;
   }
   .projects {
-    border: 2px solid salmon;
+    border: 0px;
   }
   .projectPreviews {
       /*display: inline-flex;
@@ -228,7 +232,6 @@ body {
       min-width: 350px;
       display: block;
       height: auto;
-      border: 2px solid salmon;
       padding: 20px;
   }
   .projectImage {
@@ -299,6 +302,11 @@ footer {
     height: auto;
     display: flex;
     align-items: center;
+
+}
+.linkItem a {
+    text-decoration: none;
+    color: white;
 }
 #aboutMe {
     text-align: center;
