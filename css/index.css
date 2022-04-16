@@ -259,22 +259,15 @@ body {
       padding-bottom: 100px;
       background-color: #0000003e;
   }
-<<<<<<< HEAD
   #projectSectionContainer {
       padding-top: 10px;
       padding-bottom: 50px;
       border: 1px solid yellow;
-=======
-  #projectSection {
-      padding-top: 10px;
-      padding-bottom: 50px;
->>>>>>> e2a3ed3a8d3a748602f3880188e735ae4daf961a
   }
   #skillsSectionContainer {
       padding-top: 50px;
       padding-bottom: 50px;
   }
-<<<<<<< HEAD
   #projectSection .sectionHeading {
       display: block;
       flex-basis: 100%;
@@ -282,8 +275,6 @@ body {
   .projects {
     border: 2px solid salmon;
   }
-=======
->>>>>>> e2a3ed3a8d3a748602f3880188e735ae4daf961a
   .projectPreviews {
       /*display: inline-flex;
       color: white;
@@ -292,7 +283,6 @@ body {
       text-align: center;
       align-items: center;
       border: 2px solid salmon;
-<<<<<<< HEAD
       align-items: center;
       display: block;*/
       width: 25%;
@@ -301,8 +291,6 @@ body {
       height: auto;
       border: 2px solid salmon;
       padding: 20px;
-=======
->>>>>>> e2a3ed3a8d3a748602f3880188e735ae4daf961a
   }
   .projectImage {
     background-size: cover;
@@ -335,11 +323,7 @@ body {
       flex-direction: row;
       text-align: center;
       justify-content: center;
-<<<<<<< HEAD
       flex-wrap: wrap;
-=======
-      align-items: center;
->>>>>>> e2a3ed3a8d3a748602f3880188e735ae4daf961a
   }
   #skillsSection {
     margin-top: 200px;
@@ -349,12 +333,8 @@ body {
       display: block;
   }
   .skillContainer {
-<<<<<<< HEAD
       max-width: 30%;
       min-width: 350px;
-=======
-      width: 450px;
->>>>>>> e2a3ed3a8d3a748602f3880188e735ae4daf961a
       display: inline-flex;
       height: 400px;
       border: 2px solid salmon;
@@ -363,13 +343,8 @@ body {
   .skillsImage {
     background-size: cover;
     background-color: white;
-<<<<<<< HEAD
     height: 250px;
     min-width: 100%;
-=======
-    width: 450px;
-    height: 250px;
->>>>>>> e2a3ed3a8d3a748602f3880188e735ae4daf961a
 }
 footer {
     font-family: 'NeueMontreal';
