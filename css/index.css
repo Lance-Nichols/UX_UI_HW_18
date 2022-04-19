@@ -421,7 +421,8 @@ body {
       color: white;
   }
   .sectionHeading {
-      font-family: 'Migra';
+      font-family: 'Migra-ExtraBold';
+      font-weight: bolder;
       color: white;
       letter-spacing: 2px;
       /*border: 2px solid yellowgreen;*/
