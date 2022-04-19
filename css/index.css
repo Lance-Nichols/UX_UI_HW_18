@@ -149,7 +149,7 @@
  @font-face {
     font-family: 'Migra';
     src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
-    font-weight: 900;
+    font-weight: bold;
     font-style: normal;
  }
  @font-face {
@@ -266,7 +266,7 @@ body {
     box-sizing: content-box;
     position: relative;
     font-family: 'Migra';
-    font-weight: 900;
+    font-weight: bold;
     position: relative;
     top: -30px;
  } 
@@ -323,7 +323,7 @@ body {
   }
   .list-inline li {
     font-family: 'Migra';
-    font-weight: 900;
+    font-weight: bold;
     color: white;
     letter-spacing: 3px;
   }
