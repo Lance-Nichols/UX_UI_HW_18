@@ -2,7 +2,7 @@
     @font-face {
         font-family: 'Migra';
         src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
-        font-weight: 900;
+        font-weight: bold;
         font-style: normal;
      }
     footer {
@@ -40,7 +40,7 @@
     .titleSectionText {
        font-size: 5em;
        font-family: 'Migra';
-       font-weight: 900 !important;
+       font-weight: bold !important;
        letter-spacing: 1px;
     }
     .titleSection {
