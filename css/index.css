@@ -95,6 +95,11 @@
         margin-top: 20px;
         margin-bottom: 70px;
     }
+    #diamonShape {
+        height: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 @media screen and (min-width: 601px) {
     .titleSectionText {
@@ -141,6 +146,11 @@
     }
     #projectSkillsSection {
         padding-bottom: 80px;
+    }
+    #diamonShape {
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
   }
 
