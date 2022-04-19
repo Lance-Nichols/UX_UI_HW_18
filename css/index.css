@@ -15,18 +15,28 @@
     .sectionHeading {
         font-size: 2em;
     }
+    header {
+        box-sizing: content-box;
+        justify-content: center;
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+    }
     #typographyHeading {
         box-sizing: content-box;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        padding-bottom: 190px;
-        padding-top: 150px;
+        margin: auto;
+        position: relative;
+        top: -30px;
     }
     .titleSectionText {
        font-size: 5em;
+       font-family: 'Migra';
+       font-weight: 900 !important;
+       letter-spacing: 1px;
     }
-   
     .titleSection {
         overflow: hidden;
         line-height: 1;
@@ -53,7 +63,6 @@
         display: inline;
         padding: 10px;
         font-size: smaller;
-        border: 1px solid salmon;
         text-align: center;
     }
     #profile {
@@ -133,7 +142,6 @@
     font-family: 'Migra';
     src: url('../fonts/Migra-ExtraLight.woff2') format('woff2');
     font-weight: 100;
-    font-display: swap;
     font-style: normal;
  }
 
@@ -141,21 +149,18 @@
     font-family: 'Migra';
     src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
     font-weight: 900;
-    font-display: swap;
     font-style: normal;
  }
  @font-face {
     font-family: 'Migra';
     src: url('../fonts/Migra-Regular.woff2') format('woff2');
     font-weight: 500;
-    font-display: swap;
     font-style: normal;
  }
  @font-face {
     font-family: 'NeueMontreal';
     src: url('../fonts/NeueMontreal-Light.woff2') format('woff2');
     font-weight: 100;
-    font-display: swap;
     font-style: normal;
  }
 
@@ -163,14 +168,12 @@
     font-family: 'NeueMontreal';
     src: url('../fonts/NeueMontreal-Bold.woff2') format('woff2');
     font-weight: 900;
-    font-display: swap;
     font-style: normal;
  }
  @font-face {
     font-family: 'NeueMontreal';
     src: url('../fonts/NeueMontreal-Regular.woff2') format('woff2');
     font-weight: 500;
-    font-display: swap;
     font-style: normal;
  }
 body {
@@ -237,7 +240,7 @@ body {
  }
  .titleSectionText {
     font-family: 'Migra';
-    font-weight: 900;
+    font-weight: 900 !important;
     letter-spacing: 1px;
  }
 
