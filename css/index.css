@@ -1,8 +1,8 @@
 @media only screen and (max-width: 600px) {
     @font-face {
-        font-family: 'Migra-ExtraBold';
+        font-family: 'Migra';
         src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
-        font-weight: bold;
+        font-weight: 900;
         font-style: normal;
      }
     footer {
@@ -39,8 +39,8 @@
     }
     .titleSectionText {
        font-size: 5em;
-       font-family: 'Migra-ExtraBold';
-       font-weight: bold;
+       font-family: 'Migra';
+       font-weight: 900;
        letter-spacing: 1px;
     }
     .titleSection {
@@ -157,9 +157,9 @@
 
 
  @font-face {
-    font-family: 'Migra-ExtraBold';
+    font-family: 'Migra';
     src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
-    font-weight: bold;
+    font-weight: 900;
     font-style: normal;
  }
  @font-face {
@@ -256,8 +256,8 @@ body {
      /*border: 1px solid salmon;*/
  }
  .titleSectionText {
-    font-family: 'Migra-ExtraBold';
-    font-weight: bold;
+    font-family: 'Migra';
+    font-weight: 900;
     letter-spacing: 1px;
  }
 
@@ -276,8 +276,8 @@ body {
     overflow: hidden;
     box-sizing: content-box;
     position: relative;
-    font-family: 'Migra-ExtraBold';
-    font-weight: bold;
+    font-family: 'Migra';
+    font-weight: 900;
     position: relative;
     top: -30px;
  } 
@@ -333,8 +333,8 @@ body {
     100% { transform: translateX(-66.6%); }
   }
   .list-inline li {
-    font-family: 'Migra-ExtraBold';
-    font-weight: bold;
+    font-family: 'Migra';
+    font-weight: 900;
     color: white;
     letter-spacing: 3px;
   }
@@ -421,8 +421,8 @@ body {
       color: white;
   }
   .sectionHeading {
-      font-family: 'Migra-ExtraBold';
-      font-weight: bolder;
+      font-family: 'Migra';
+      font-weight: 900;
       color: white;
       letter-spacing: 2px;
       /*border: 2px solid yellowgreen;*/
