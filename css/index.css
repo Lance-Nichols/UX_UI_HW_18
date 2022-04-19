@@ -40,7 +40,7 @@
     .titleSectionText {
        font-size: 5em;
        font-family: 'Migra-ExtraBold';
-       font-weight: bold !important;
+       font-weight: bold;
        letter-spacing: 1px;
     }
     .titleSection {
@@ -257,7 +257,7 @@ body {
  }
  .titleSectionText {
     font-family: 'Migra-ExtraBold';
-    font-weight: bold !important;
+    font-weight: bold;
     letter-spacing: 1px;
  }
 
