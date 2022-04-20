@@ -162,7 +162,7 @@
     font-weight: 900;
     font-style: normal;
  }
- @font-face {
+ /*@font-face {
     font-family: 'Migra';
     src: url('../fonts/Migra-ExtraLight.woff2') format('woff2');
     font-weight: 100;
@@ -173,7 +173,7 @@
     src: url('../fonts/Migra-Regular.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
- }
+ }*/
  @font-face {
     font-family: 'NeueMontreal';
     src: url('../fonts/NeueMontreal-Light.woff2') format('woff2');
