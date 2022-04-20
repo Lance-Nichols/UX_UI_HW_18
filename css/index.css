@@ -158,7 +158,11 @@
 
  @font-face {
     font-family: 'Migra';
-    src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
+    src: url('../fonts/Migra-ExtraBold.woff2') format("woff2"),
+    url('../fonts/Migra-Extrabold.ttf') format("truetype"),
+    url('../fonts/Migra-Extrabold.otf') format("opentype"),
+    url("../fonts/Migra-Extrabold.woff") format("woff"),
+    url("../fonts/Migra-Extrabold.eot") format("eot");
     font-weight: 900;
     font-style: normal;
  }
